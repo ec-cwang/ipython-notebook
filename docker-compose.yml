@@ -1,0 +1,9 @@
+myIpython:
+    image: ipython/notebook
+    ports:
+        - "9999:8888"
+    environment:
+        - PASSWORD=1234
+    volumes:
+        - .:/app:rw
+
