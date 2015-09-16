@@ -1,5 +1,5 @@
 myIpython:
-    image: ipython/notebook
+    image: eccwang/mynotebook
     ports:
         - "9999:8888"
     environment:
