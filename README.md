@@ -5,7 +5,7 @@ A Docker-rized container of ipython notebook.
 ## Usage
 
 - Clone the project
-- Build the image: `docker build -t ipython/notebook .`
+- Build the image: `docker build -t eccwang/mynotebook .`
 - Start the container: `docker-compose up`
 - Open a web browser, go to localhost:9999
 
